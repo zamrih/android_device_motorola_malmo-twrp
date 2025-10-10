@@ -1,4 +1,4 @@
-# Recovery Fstab For Moto G84 5G
+# Recovery Fstab For Moto G85 5G
 # By @Samw662
 
 #device         mount point      fstype        [device2] [length=]

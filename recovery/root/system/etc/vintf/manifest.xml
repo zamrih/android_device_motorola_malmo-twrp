@@ -136,7 +136,7 @@
         <fqname>@1.0::ISystemResource/default</fqname>
     </hal>
     <hal format="hidl">
-        <name>vendor.qti.hardware.wifi.keystore</name>
+        <name>android.system.wifi.keystore</name>
         <transport>hwbinder</transport>
         <version>1.0</version>
         <interface>

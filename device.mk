@@ -31,7 +31,7 @@ PRODUCT_PLATFORM := holi
 # A/B support
 AB_OTA_UPDATER := true
 
-LOCAL_PATH := device/motorola/bangkk
+LOCAL_PATH := device/motorola/malmo
 
 # A/B
 AB_OTA_PARTITIONS += \

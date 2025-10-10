@@ -1,4 +1,4 @@
-# TWRP Device configuration for Motorola Moto G84 5G
+# TWRP Device configuration for Motorola Moto G85 5G
 
 ## Device specification
 
