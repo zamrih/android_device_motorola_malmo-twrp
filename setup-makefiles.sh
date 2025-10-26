@@ -10,7 +10,7 @@
 
 set -e
 
-DEVICE=msi
+DEVICE=malmo
 VENDOR=motorola
 
 # Load extract_utils and do some sanity checks

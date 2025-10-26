@@ -8,7 +8,7 @@
 # SPDX-License-Identifier: Apache-2.0
 #
 
-DEVICE_PATH := device/motorola/msi
+DEVICE_PATH := device/motorola/malmo
 
 # A/B
 AB_OTA_UPDATER := true
@@ -39,8 +39,8 @@ BOARD_MKBOOTIMG_ARGS += --header_version $(BOARD_BOOT_HEADER_VERSION)
 BOARD_KERNEL_IMAGE_NAME := Image
 BOARD_INCLUDE_DTB_IN_BOOTIMG := true
 BOARD_KERNEL_SEPARATED_DTBO := true
-TARGET_KERNEL_CONFIG := msi_defconfig
-TARGET_KERNEL_SOURCE := kernel/motorola/msi
+TARGET_KERNEL_CONFIG := malmo_defconfig
+TARGET_KERNEL_SOURCE := kernel/motorola/malmo
 
 # Kernel - prebuilt
 TARGET_FORCE_PREBUILT_KERNEL := true

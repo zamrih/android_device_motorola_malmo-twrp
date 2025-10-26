@@ -1,6 +1,6 @@
 # BACKUP REPLACE FILE
 
-# TWRP device tree for motorola moto g85 5G (msi)
+# TWRP device tree for motorola moto g85 5G (malmo)
 
 ```
 # BACKUP REPLACE FILE

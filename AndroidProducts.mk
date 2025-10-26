@@ -9,9 +9,9 @@
 #
 
 PRODUCT_MAKEFILES := \
-    $(LOCAL_DIR)/twrp_msi.mk
+    $(LOCAL_DIR)/twrp_malmo.mk
 
 COMMON_LUNCH_CHOICES := \
-    twrp_msi-user \
-    twrp_msi-userdebug \
-    twrp_msi-eng
+    twrp_malmo-user \
+    twrp_malmo-userdebug \
+    twrp_malmo-eng
