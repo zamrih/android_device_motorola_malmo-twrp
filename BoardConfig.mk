@@ -12,7 +12,12 @@ DEVICE_PATH := device/motorola/malmo
 
 # A/B
 AB_OTA_UPDATER := true
-AB_OTA_PARTITIONS +=
+AB_OTA_PARTITIONS += \
+     product \
+	 pvmfw \
+	 system \
+	 system_ext \
+	 vbmeta_system
 BOARD_USES_RECOVERY_AS_BOOT := true
 
 # Architecture
