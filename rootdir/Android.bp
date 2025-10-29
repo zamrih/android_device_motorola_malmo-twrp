@@ -419,7 +419,7 @@ prebuilt_etc {
 
 // fstab
 prebuilt_etc {
-    name: "fstab.qcom.zramwb",
-    src: "etc/fstab.qcom.zramwb",
+    name: "fstab.qcom",
+    src: "etc/fstab.qcom",
     vendor: true,
 }

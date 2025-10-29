@@ -106,7 +106,7 @@ PRODUCT_PACKAGES += \
     vendor_modprobe.sh \
 
 PRODUCT_PACKAGES += \
-    fstab.qcom.zramwb \
+    fstab.qcom \
     init.mmi.charge_only.rc \
     init.mmi.chipset.rc \
     init.mmi.debug.rc \
@@ -125,7 +125,7 @@ PRODUCT_PACKAGES += \
     init.recovery.qcom.rc \
 
 PRODUCT_COPY_FILES += \
-    $(LOCAL_PATH)/rootdir/etc/fstab.qcom.zramwb:$(TARGET_VENDOR_RAMDISK_OUT)/first_stage_ramdisk/fstab.qcom.zramwb
+    $(LOCAL_PATH)/rootdir/etc/fstab.qcom:$(TARGET_VENDOR_RAMDISK_OUT)/first_stage_ramdisk/fstab.qcom
 
 # Soong namespaces
 PRODUCT_SOONG_NAMESPACES += \
